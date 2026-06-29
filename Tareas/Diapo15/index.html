@@ -45,6 +45,22 @@ html, body {
   height: 1080px;
 }
 
+/* ─── TÍTULO ESQUINA SUPERIOR IZQUIERDA ─────────────────────── */
+.page-title {
+  position: fixed;
+  top: 24px;
+  left: 40px;
+  z-index: 200;
+  font-family: 'BaltoBold', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #000;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
 /* ─── TOP NAV (floating sobre el contenido) ──────────────────── */
 .top-nav {
   position: fixed;
@@ -461,6 +477,9 @@ html, body {
     </div>
 
   </div>
+
+  <!-- ───────────────  TÍTULO  ─────────────────── -->
+  <div class="page-title">Ejemplos de cobranding</div>
 
   <!-- ───────────────  TOP NAV  ─────────────────── -->
   <header class="top-nav">
